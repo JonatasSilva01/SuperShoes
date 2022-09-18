@@ -1,0 +1,11 @@
+.footer {
+    background: #c1c1;
+    align-items: flex-end;
+    padding: 10px;
+}
+.footer .container {}
+.footer .container .row {}
+.footer .container .row .col-md-6 {
+    padding: 10px;
+}
+.footer .container .row .col-md-6 p {}

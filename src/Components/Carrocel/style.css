@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .fundoCarrocel {
+    padding: 50px;
+  }
+  
+  header .container {}
+  .container .carrocel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+  }
+
+  .container .carrocel::-webkit-scrollbar {
+    display: none;
+  }
+  .container .carrocel .item {}
+  .container .carrocel .item .image {}
+  .container .carrocel .item .image img {}
+
+  .container .buttons {
+    width: 100%;
+    text-align: center;
+  }
+  .container .buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .container .buttons button:first-child img {
+    transform: rotate(180deg);
+  }

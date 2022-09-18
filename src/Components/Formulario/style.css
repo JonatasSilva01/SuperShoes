@@ -1,0 +1,10 @@
+.formCad {
+    padding: 50px;
+}
+.formCad .container {}
+.formCad .container .row {}
+.formCad .container .row .col-md-6 {}
+.formCad .container .row .col-md-6 .form-label {}
+.formCad .container .row .col-md-6 .form-control {}
+
+

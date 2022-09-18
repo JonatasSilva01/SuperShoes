@@ -1,0 +1,14 @@
+.conteudo {
+    background-color: #c1c1;
+    padding: 50px;
+}
+.conteudo .container {}
+.conteudo .container .row {}
+.conteudo .container .col-md-6 {
+    display: flex;
+    justify-content: center;
+}
+.conteudo .container .col-md-6 .d-flex {}
+.conteudo .container .col-md-6 .d-flex img {}
+
+.conteudo .container .col-md-6 .text-center p {}
